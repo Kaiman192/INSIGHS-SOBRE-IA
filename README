@@ -1,0 +1,68 @@
+# Análise de Temas e Sentimentos em Artigos sobre Ética em IA
+
+## Descrição do Projeto
+
+Este projeto foca na análise de temas recorrentes e sentimentos em artigos sintéticos sobre ética em inteligência artificial (IA). Utilizamos técnicas de processamento de linguagem natural (NLP) como a extração de tópicos com Latent Dirichlet Allocation (LDA) e análise de sentimentos com TextBlob, além de visualizações gráficas para explorar as tendências e distribuições ao longo do tempo.
+
+## Estrutura do Projeto
+
+- **Geração de Dados Sintéticos**: Os dados foram gerados com temas como "Bias", "Privacy", "Fairness", entre outros.
+- **Análise Exploratória de Dados (EDA)**: Inclui visualizações de distribuição de temas e tendências ao longo do tempo.
+- **Extração de Tópicos com LDA**: Identificação dos principais tópicos abordados nos textos dos artigos.
+- **Nuvem de Palavras**: Visualização gráfica das palavras mais frequentes.
+- **Análise de Sentimento**: Comparação entre sentimentos fornecidos e calculados a partir dos textos.
+
+## Dependências
+
+As bibliotecas necessárias estão listadas no arquivo `requirements.txt`. Para instalá-las, execute o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+
+
+
+Memória atualizada
+Aqui estão os arquivos que você pode criar para o seu novo projeto de análise sobre ética em IA:
+
+1. README.md
+markdown
+Copiar código
+# Análise de Temas e Sentimentos em Artigos sobre Ética em IA
+
+## Descrição do Projeto
+
+Este projeto foca na análise de temas recorrentes e sentimentos em artigos sintéticos sobre ética em inteligência artificial (IA). Utilizamos técnicas de processamento de linguagem natural (NLP) como a extração de tópicos com Latent Dirichlet Allocation (LDA) e análise de sentimentos com TextBlob, além de visualizações gráficas para explorar as tendências e distribuições ao longo do tempo.
+
+## Estrutura do Projeto
+
+- **Geração de Dados Sintéticos**: Os dados foram gerados com temas como "Bias", "Privacy", "Fairness", entre outros.
+- **Análise Exploratória de Dados (EDA)**: Inclui visualizações de distribuição de temas e tendências ao longo do tempo.
+- **Extração de Tópicos com LDA**: Identificação dos principais tópicos abordados nos textos dos artigos.
+- **Nuvem de Palavras**: Visualização gráfica das palavras mais frequentes.
+- **Análise de Sentimento**: Comparação entre sentimentos fornecidos e calculados a partir dos textos.
+
+## Dependências
+
+As bibliotecas necessárias estão listadas no arquivo `requirements.txt`. Para instalá-las, execute o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+Resultados
+Distribuição dos Temas: Um gráfico de barras que mostra a quantidade de artigos por tema.
+Tendências ao Longo do Tempo: Um gráfico de barras que exibe o número de artigos por ano.
+Extração de Tópicos com LDA: Lista de tópicos principais com base nos textos dos artigos.
+Nuvem de Palavras: Visualização das palavras mais comuns nos artigos.
+Análise de Sentimento: Comparação entre os sentimentos fornecidos e calculados.
+
+Como Executar
+git clone https://github.com/seu-usuario/etica-ia.git
+pip install -r requirements.txt
+
+Estrutura de Diretórios
+
+├── data/                # Contém arquivos de dados (se aplicável)
+├── src/                 # Código fonte
+├── README.md            # Este arquivo
+├── requirements.txt     # Dependências do projeto
+├── .gitignore           # Arquivos a serem ignorados no Git
+└── LICENSE              # Licença do projeto
